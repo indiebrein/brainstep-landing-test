@@ -474,6 +474,12 @@ h3 { font-size: 1.2rem; font-weight: 700; }
 .section { padding: var(--space-xl) 0; }
 .section-tight { padding: var(--space-l) 0; }
 
+/* Anchor links must stop below the sticky navigation instead of placing
+   section headings underneath it. */
+main section[id] {
+  scroll-margin-top: calc(var(--nav-height) + var(--space-s));
+}
+
 /* ---------- Skills bento ---------- */
 .skill-bento {
   display: grid;
