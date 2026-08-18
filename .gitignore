@@ -1,2 +1,4 @@
 # Original source screenshots are kept locally. Optimized, named copies are tracked in assets/screenshots.
 Screenshot_*.png
+__pycache__/
+*.pyc
